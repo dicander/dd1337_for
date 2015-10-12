@@ -15,7 +15,7 @@ public class ArrayLecture {
 		for(int i = 0; i < numbers.size() ; ++i) {
 			System.out.println(numbers.get(i));
 		}
-		Iterator it = numbers.iterator();
+		Iterator<Integer> it = numbers.iterator();
 		while(it.hasNext()) {
 			System.out.println(it.next());
 		}
